@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyApplicationMVVM</string>
+    <string name="login">Login</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string name="enter_user_password">Enter Password</string>
+    <string name="registration">Registration</string>
 </resources>
