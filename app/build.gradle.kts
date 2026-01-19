@@ -43,6 +43,10 @@ android {
     buildFeatures {
         compose = true
     }
+    buildFeatures {
+        viewBinding = true // In KTS, you must use the '=' sign
+
+}
 }
 
 dependencies {
@@ -83,4 +87,7 @@ dependencies {
 
     //Card View
     implementation("androidx.cardview:cardview:1.0.0")
+
+    // Material Design
+    implementation("com.google.android.material:material:1.10.0")
 }
